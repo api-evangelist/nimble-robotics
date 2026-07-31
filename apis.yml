@@ -1,8 +1,13 @@
 aid: nimble-robotics
 name: Nimble Robotics
-description: 'Nimble Robotics is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Nimble Robotics (Nimble) is an autonomous robotic third-party logistics
+  (3PL) company building AI-powered robots that pick, pack, and fulfill ecommerce orders
+  with minimal human intervention. Founded by Simon Kalouche, the company operates fully
+  autonomous robotic fulfillment centers and is training general-purpose robot AI to
+  power fast, economical commerce. Backed by Accel and partnered with FedEx, Nimble
+  raised a $106M Series C at a $1B valuation, with board member Marc Raibert (Boston
+  Dynamics founder). Nimble is a physical robotics and logistics operator and does not
+  currently publish a public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/nimble-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://assets.nimble.ai/640b648c56170093acbd0cdb_cover--min.png
 tags:
 - Company
 - Ai
+- Robotics
+- Logistics
+- Fulfillment
+- Ecommerce
+- Automation
+- 3PL
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nimble-robotics-domain-security.yml
 - type: Website
   url: https://nimble.ai/#home
+- type: Blog
+  url: https://nimble.ai/blog
+- type: PrivacyPolicy
+  url: https://nimble.ai/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nimble-robotics/
+- type: X
+  url: https://twitter.com/nimble_ai
+- type: YouTube
+  url: https://www.youtube.com/channel/UCQ3jRmtiUGymyLxWpbjtlwg
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
