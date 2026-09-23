@@ -1,0 +1,26 @@
+# Front Door AI Index — nimble-robotics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nimble-robotics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: nimble.ai
+  final_host: nimble.ai
+  ownership: own
+  owner: nimble-robotics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 9.49
+  words: 1580
+  tiers:
+    agentic: 0
+    core: 15
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 15
+    intelligence: 1
